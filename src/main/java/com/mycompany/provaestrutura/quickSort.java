@@ -46,7 +46,7 @@ public class quickSort {
     {
         if (low < high)
         {
-            
+            //Com o pi podemos estar trabalhando melhor com as informações
             int pi = partition(arr, low, high);
   
             //Faz a organização dos elementos e inicia o loop
